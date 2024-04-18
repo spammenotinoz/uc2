@@ -1,12 +1,12 @@
-# ChatLabs
+# Ultimate Chat
 
-<img width="1464" alt="image" src="https://github.com/writingmate/chatlabs/assets/420428/aad7706f-8b8d-4671-b668-0e38babc5f09">
+<img width="1464" alt="image" src="https://github.com/writingmate/Ultimate Chat/assets/420428/aad7706f-8b8d-4671-b668-0e38babc5f09">
 
 
-ChatLabs is all-in-one LLM chat platform with access to over 20+ LLMs in one place. 
+Ultimate Chat is all-in-one LLM chat platform with access to over 20+ LLMs in one place. 
 It comes with Web Search and Image Generation plugins included.
 
-ChatLabs is a fork of the [Chatbotui](https://github.com/mckaywrigley/chatbot-ui) project.
+Ultimate Chat is a fork of the [Chatbotui](https://github.com/mckaywrigley/chatbot-ui) project.
 
 ## Demo
 
@@ -14,9 +14,9 @@ View the latest demo [here](https://twitter.com/avysotsky/status/176580578840299
 
 ## Official Hosted Version
 
-Use ChatLabs without having to host it yourself!
+Use Ultimate Chat without having to host it yourself!
 
-Find the official hosted version of ChatLabs [here](https://labs.writingmate.ai).
+Find the official hosted version of Ultimate Chat [here](https://labs.writingmate.ai).
 
 ## Issues
 
@@ -38,7 +38,7 @@ Odds are if you have a question, someone else has the same question.
 
 ## Updating
 
-In your terminal at the root of your local ChatLabs repository, run:
+In your terminal at the root of your local Ultimate Chat repository, run:
 
 ```bash
 npm run update
@@ -54,7 +54,7 @@ to apply the latest migrations to your live database.
 
 ## Local Quickstart
 
-Follow these steps to get your own ChatLabs instance running locally.
+Follow these steps to get your own Ultimate Chat instance running locally.
 
 ### 1. Clone the Repo
 
@@ -64,7 +64,7 @@ git clone https://github.com/writingmate/webapp.git
 
 ### 2. Install Dependencies
 
-Open a terminal in the root directory of your local ChatLabs repository and run:
+Open a terminal in the root directory of your local Ultimate Chat repository and run:
 
 ```bash
 npm install
@@ -93,7 +93,7 @@ scoop install supabase
 
 #### 3. Start Supabase
 
-In your terminal at the root of your local ChatLabs repository, run:
+In your terminal at the root of your local Ultimate Chat repository, run:
 
 ```bash
 supabase start
@@ -103,7 +103,7 @@ supabase start
 
 #### 1. Environment Variables
 
-In your terminal at the root of your local ChatLabs repository, run:
+In your terminal at the root of your local Ultimate Chat repository, run:
 
 ```bash
 cp .env.local.example .env.local
@@ -145,19 +145,19 @@ Follow the instructions [here](https://github.com/jmorganca/ollama#macos).
 
 ### 6. Run app locally
 
-In your terminal at the root of your local ChatLabs repository, run:
+In your terminal at the root of your local Ultimate Chat repository, run:
 
 ```bash
 npm run chat
 ```
 
-Your local instance of ChatLabs should now be running at [http://localhost:3000](http://localhost:3000). Be sure to use a compatible node version (i.e. v18).
+Your local instance of Ultimate Chat should now be running at [http://localhost:3000](http://localhost:3000). Be sure to use a compatible node version (i.e. v18).
 
 You can view your backend GUI at [http://localhost:54323/project/default/editor](http://localhost:54323/project/default/editor).
 
 ## Hosted Quickstart
 
-Follow these steps to get your own ChatLabs instance running in the cloud.
+Follow these steps to get your own Ultimate Chat instance running in the cloud.
 
 Video tutorial coming soon.
 
@@ -167,7 +167,7 @@ Repeat steps 1-4 in "Local Quickstart" above.
 
 You will want separate repositories for your local and hosted instances.
 
-Create a new repository for your hosted instance of ChatLabs on GitHub and push your code to it.
+Create a new repository for your hosted instance of Ultimate Chat on GitHub and push your code to it.
 
 ### 2. Setup Backend with Supabase
 
@@ -205,14 +205,14 @@ We recommend turning off "Confirm email" for your own personal instance.
 
 #### 4. Connect to Hosted DB
 
-Open up your repository for your hosted instance of ChatLabs.
+Open up your repository for your hosted instance of Ultimate Chat.
 
 In the 1st migration file `supabase/migrations/20240108234540_setup.sql` you will need to replace 2 values with the values you got above:
 
 - `project_url` (line 53): Use the `Project URL` value from above
 - `service_role_key` (line 54): Use the `Service role key` value from above
 
-Now, open a terminal in the root directory of your local ChatLabs repository. We will execute a few commands here.
+Now, open a terminal in the root directory of your local Ultimate Chat repository. We will execute a few commands here.
 
 Login to Supabase by running:
 
@@ -240,7 +240,7 @@ Your hosted database should now be set up!
 
 Go to [Vercel](https://vercel.com/) and create a new project.
 
-In the setup page, import your GitHub repository for your hosted instance of ChatLabs. Within the project Settings, in the "Build & Development Settings" section, switch Framework Preset to "Next.js".
+In the setup page, import your GitHub repository for your hosted instance of Ultimate Chat. Within the project Settings, in the "Build & Development Settings" section, switch Framework Preset to "Next.js".
 
 In environment variables, add the following from the values you got above:
 
@@ -260,7 +260,7 @@ For the full list of environment variables, refer to the '.env.local.example' fi
 
 Click "Deploy" and wait for your frontend to deploy.
 
-Once deployed, you should be able to use your hosted instance of ChatLabs via the URL Vercel gives you.
+Once deployed, you should be able to use your hosted instance of Ultimate Chat via the URL Vercel gives you.
 
 ## Platform Tools
 
