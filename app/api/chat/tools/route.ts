@@ -25,7 +25,7 @@ import {
   OpenAIFunctionCaller
 } from "@/lib/tools/function-callers"
 
-export const maxDuration = 300
+export const maxDuration = 10
 
 export async function GET() {
   return new Response(JSON.stringify(platformToolDefinitions()), {

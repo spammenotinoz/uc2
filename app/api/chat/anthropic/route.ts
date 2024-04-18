@@ -11,7 +11,7 @@ import { NextRequest, NextResponse } from "next/server"
 
 export const runtime = "edge"
 
-export const maxDuration = 300
+export const maxDuration = 10
 export async function POST(request: NextRequest) {
   const json = await request.json()
   const { chatSettings, messages } = json as {
